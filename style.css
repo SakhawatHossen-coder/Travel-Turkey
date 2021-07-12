@@ -855,3 +855,34 @@ p {
   display: flex;
   flex-direction: column;
 }
+.social-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+}
+.social-icon {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.social-icon h1 {
+  padding-left: 1rem;
+}
+.social-icon h1 a {
+  text-decoration: none;
+  color: white;
+}
+.ri-facebook-circle-fill:hover {
+  color: var(--skyblue-color);
+}
+.ri-instagram-line:hover {
+  color: var(--pink-color);
+}
+.ri-twitter-fill:hover {
+  color: var(--second-blue-color);
+}
+.ri-behance-line:hover,
+.ri-linkedin-box-fill:hover {
+  color: var(--black-color);
+}
